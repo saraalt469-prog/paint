@@ -9,18 +9,65 @@
   <body>
     <div class="wrapper">
       <div class="color-wr">
-        <div class="red" onclick="setColor('red')"></div>
-        <div class="black" onclick="setColor('black')"></div>
-        <div class="green" onclick="setColor('green')"></div>
-        <div class="blue" onclick="setColor('blue')"></div>
-        <div class="yellow" onclick="setColor('yellow')"></div>
-        <button onclick="setE(true)">Ластик</button>
-        <button onclick="setE(false)">Кисть</button>
-        <div>
-          <button class="" onclick="Dsize()">-</button>
-          <button class="sizeK" onclick="Isize()">3</button>
-          <button class="" onclick="Isize()">+</button>
+        <div class="color-table">
+          <div class="black" onclick="setColor('black')"></div>
+          <div class="gray" onclick="setColor('grey')"></div>
+          <div class="darkgrey" onclick="setColor('darkgrey')"></div>
+          <div
+            class="lightslategray"
+            onclick="setColor('lightslategray')"
+          ></div>
+
+          <div class="green" onclick="setColor('green')"></div>
+          <div class="darkseagreen" onclick="setColor('darkseagreen')"></div>
+          <div class="chartreuse" onclick="setColor('chartreuse')"></div>
+          <div class="olive" onclick="setColor('olive')"></div>
+
+          <div class="blue" onclick="setColor('blue')"></div>
+          <div class="aqua" onclick="setColor('aqua')"></div>
+          <div class="sky" onclick="setColor('skyblue')"></div>
+          <div class="royalblue" onclick="setColor('royalblue')"></div>
+
+          <div class="yellow" onclick="setColor('yellow')"></div>
+          <div class="darkkhaki" onclick="setColor('darkkhaki')"></div>
+          <div class="orange" onclick="setColor('orange')"></div>
+          <div class="brown" onclick="setColor('sienna')"></div>
+
+          <div class="pink" onclick="setColor('pink')"></div>
+          <div class="Ppink" onclick="setColor('deeppink')"></div>
+          <div class="red" onclick="setColor('red')"></div>
+          <div class="bordo" onclick="setColor('darkred')"></div>
+
+          <div class="purple" onclick="setColor('purple')"></div>
+          <div class="darkorchid" onclick="setColor('darkorchid')"></div>
+          <div class="mediumorchid" onclick="setColor('mediumorchid')"></div>
+          <div class="slateblue" onclick="setColor('slateblue')"></div>
         </div>
+
+        <button class="btn" onclick="setE(false)">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/9869/9869323.png"
+            alt=""
+          />
+        </button>
+        <button class="btn" onclick="setE(true)">
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/17669/17669730.png"
+            alt=""
+          />
+        </button>
+        <div class="t-wr">
+          <p id="btn-text">толщина кисти</p>
+          <button class="btn" onclick="Dsize()">-</button>
+          <button class="sizeK btn" onclick="Isize()">3</button>
+          <button class="btn" onclick="Isize()">+</button>
+        </div>
+        <button class="btn" onclick="zal()">
+          <img
+            src="https://png.klev.club/uploads/posts/2024-05/png-klev-club-6geg-p-zalivka-png-13.png"
+            alt=""
+          />
+        </button>
       </div>
       <div class="canvas"></div>
     </div>

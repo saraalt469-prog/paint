@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(195, 192, 192);
+  background-color: rgb(43, 42, 42);
 }
 
 .red {
@@ -45,6 +45,10 @@ body {
   margin: 0 auto;
   padding: 5px;
   background-color: white;
+  justify-content: space-around;
+  color: orange;
+  align-items: center;
+  border-radius: 10px;
 }
 .wrapper {
   padding: 50px;
@@ -63,4 +67,152 @@ body {
   width: 1px;
   height: 1px;
   position: absolute;
+}
+.btn {
+  border: none;
+  max-height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#btn-text {
+  color: black;
+  text-align: center;
+}
+.t-wr {
+  background-color: #efefef;
+  max-height: 70px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.t-wr button {
+  background-color: #e3e2e2;
+}
+img {
+  max-width: 40px;
+}
+.pink {
+  background-color: pink;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.brown {
+  background-color: sienna;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.orange {
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.Ppink {
+  background-color: deeppink;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.aqua {
+  background-color: aqua;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.gray {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.purple {
+  background-color: purple;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.bordo {
+  background-color: darkred;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.sky {
+  background-color: skyblue;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  color: slateblue;
+}
+.darkseagreen {
+  background-color: darkgreen;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.chartreuse {
+  background-color: chartreuse;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.olive {
+  background-color: olive;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.royalblue {
+  background-color: royalblue;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.darkkhaki {
+  background-color: darkkhaki;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.darkgrey {
+  background-color: darkgrey;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.lightslategray {
+  background-color: lightslategray;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.darkorchid {
+  background-color: darkorchid;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.mediumorchid {
+  background-color: mediumorchid;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.slateblue {
+  background-color: slateblue;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.color-table {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: #efefef;
+
+  padding: 5px;
 }

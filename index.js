@@ -57,7 +57,9 @@ function dr(x, y) {
     }
   }
 }
-
+function zal() {
+  holst.style.backgroundColor = eraser ? "white" : Ccolor;
+}
 holst.addEventListener("mousedown", (e) => {
   drawing = true;
   dr(e.clientX, e.clientY);
@@ -75,15 +77,3 @@ holst.addEventListener("mouseleave", () => {
 });
 
 upD();
-
-// wr.addEventListener("click", (e) => {
-//   console.log(e.target);
-//   if (e.target.className === "blue") {
-//     child.classList.add("redColor");
-//   } else if (e.target.className === "red") {
-//   } else if (e.target.className === "green") {
-//   }
-// });
-// holst.addEventListener("mousemove", (e) => {
-//   e.appendChild(child);
-// });
