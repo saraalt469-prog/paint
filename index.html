@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="color-wr">
+        <div class="red" onclick="setColor('red')"></div>
+        <div class="black" onclick="setColor('black')"></div>
+        <div class="green" onclick="setColor('green')"></div>
+        <div class="blue" onclick="setColor('blue')"></div>
+        <div class="yellow" onclick="setColor('yellow')"></div>
+        <button onclick="setE(true)">Ластик</button>
+        <button onclick="setE(false)">Кисть</button>
+        <div>
+          <button class="" onclick="Dsize()">-</button>
+          <button class="sizeK" onclick="Isize()">3</button>
+          <button class="" onclick="Isize()">+</button>
+        </div>
+      </div>
+      <div class="canvas"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
