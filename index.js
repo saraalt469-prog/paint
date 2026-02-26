@@ -42,8 +42,9 @@ function createPx(x, y) {
   pixel.style.position = "absolute";
   pixel.style.left = x + "px";
   pixel.style.top = y + "px";
-  pixel.style.width = "1px";
-  pixel.style.height = "1px";
+  pixel.style.borderRadius = "50" + "%";
+  pixel.style.width = "2px";
+  pixel.style.height = "2px";
 
   pixel.style.backgroundColor = eraser ? "white" : Ccolor;
 
@@ -57,6 +58,7 @@ function dr(x, y) {
     }
   }
 }
+
 function zal() {
   holst.style.backgroundColor = eraser ? "white" : Ccolor;
 }
